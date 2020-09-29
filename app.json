@@ -4,23 +4,25 @@
     "slug": "cek-ongkir-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/delivery-truck.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/delivery-truck.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F5F6FA"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.marzukiberg.cekongkirapp",
+      "versionCode": 1
     }
   }
 }
